@@ -1,16 +1,17 @@
-const user_info = document.getElementById("user_info")
+const user_info = document.getElementById("user_info");
 
 user_info.addEventListener('click',function(e){
     e.preventDefault();
-    document.getElementById("pop_up_nav_links_body").classList.toggle('nav_show')
+    document.getElementById("pop_up_nav_links_body").classList.toggle('nav_show');
 })
 
+const nav_trigger = document.getElementById("nav_trigger");
 
-$(document).ready(function(){
-    $('#nav_trigger').click(function(){
-        $('#toggle').slideToggle(1000);
-    })
+nav_trigger.addEventListener('click',function(e){
+    e.preventDefault();
+    document.getElementById("toggle").classList.toggle('toggle_nav_show');
 })
+
 
 
 let gallery = ["https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500", 
