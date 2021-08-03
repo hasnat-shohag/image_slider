@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Image Slider</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.png">
+
+    <meta charset="UTF-8">
+    <meta name="robots" content="index, follow">
+
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="5000000">
+    <!-- <meta http-equiv="refresh" content="5"> -->
+
+    <meta name="keywords" content="class one, html learn">
+    <meta name="description" content="you learn every things about html">
+    <meta name="author" content="mr abdul kuddus">
+    <meta name="copyrigth" content="www.mysite.com">
+    <meta name="revisit" content="5 days">
+
+    <meta property="og:title" content="html learn" />
+    <meta property="og:site_name" content="adfas" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://" />
+    <meta property="og:image" content="http://" />
+    <meta property="og:image:width" content="600" />
+    <meta property="og:image:height" content="315" />
+
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="http://">
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- <link rel="stylesheet" href="./fonts/fontawesome/fontawesome-free-5.15.3-web/css/all.min.css"> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="default.css">
+    <link rel="stylesheet" href="templete.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main id="main_body">
+        <div class="top">
+            <div class="top_content top_content_body">
+
+                <div class="left">
+                    <a id="nav_trigger" class="nav_trigger" href="#">
+                        <i class="fa fa-bars"></i>
+                    </a>
+
+                </div>
+
+                <div class="mid">
+                    <form action="#">
+                        <input type="text" placeholder="search">
+                        <button type="button">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="right">
+                    <a id="user_info" href="#">
+                        <i class="fa fa-user"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="pop_up">
+            <div id="pop_up_nav_links_body" class="pop_up_nav_links_body">
+                <ul class="pop_up_nav_links" id="pop_up_nav_links">
+                    <li>
+                        <i class="fa fa-user-alt"></i>
+                        <a href="#">See your profile</a></li>
+
+                    <li>
+                        <i class="fa fa-cog"></i>
+                        <a href="#">Settings</a></li>
+                    <li>
+                        <i class="fa fa-sign"></i>
+                        <a href="#">Log out</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="toggle">
+            <ul>
+                <li>
+                    <a href="#">Dashboard</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">Gallery</a>
+                </li>
+                <li>
+                    <a href="#">Support</a>
+                </li>
+                <li>
+
+                    <a href="#"><i class="fa fa-sign-out"></i> Sign Out</a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="content">
+            <div class="app_content_body">
+                <div class="app_content">
+                    <h1>Image Slider</h1>
+                    <div class="slider_content">
+                        <button class="sliderButton" type="button" id="prev"><i class="fa fa-angle-left"></i></button>
+                        <img id="sliderimg" src="images/1.jpg" alt="">
+                        <button class="sliderButton" type="button" id="next"><i class="fa fa-angle-right"></i></button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="bottom_content">
+                <ul class="nav_links">
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-home"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-tasks"></i>
+                            <span>Tasks</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-bell"></i>
+                            <span>Alerts</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-cog"></i>
+                            <span>Settings</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

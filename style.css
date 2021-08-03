@@ -1,0 +1,35 @@
+.app_content h1{
+    display: block;
+    font-size: 35px;
+    text-align: center;
+    color: #00c2fd;
+    /* padding-bottom: 5px; */
+}
+.slider_content{
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.slider_content img{
+    width: 95%;
+}
+.sliderButton {
+    position: absolute;
+	cursor: pointer;
+	background: transparent;
+	font-size: 35px;
+	color: #37BAE2;
+    padding: 0px 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: seashell;
+}
+#prev{
+    left: 0;
+}
+#next{
+    right: 0;
+}
