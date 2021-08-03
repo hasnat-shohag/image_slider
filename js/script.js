@@ -13,7 +13,12 @@ $(document).ready(function(){
 })
 
 
-let gallery = ["images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg","images/5.jpg", "images/6.jpg"];
+let gallery = ["https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500", 
+                "https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500", 
+                "https://images.pexels.com/photos/2739013/pexels-photo-2739013.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500", 
+                "https://images.pexels.com/photos/1329711/pexels-photo-1329711.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+                "https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260", 
+                "https://images.pexels.com/photos/2341830/pexels-photo-2341830.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"];
 
 let ImgSelect = document.querySelector("#sliderimg");
 let count = 0;
