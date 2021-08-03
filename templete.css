@@ -164,11 +164,11 @@
     transition: .5s;
 }
 .toggle_nav_show {
-    visibility: visible;
-    opacity: 1;
-    left: 0px;
-    top: 100%;
-    z-index: 1000;
+    visibility: visible !important;
+    opacity: 1 !important;
+    left: 0px !important;
+    top: 100% !important;
+    z-index: 1000 !important;
 }
 
 #toggle li {
