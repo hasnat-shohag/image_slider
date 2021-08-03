@@ -8,10 +8,6 @@ body {
     scroll-behavior: smooth;
 }
 
-@font-face {
-    font-family: 'opens-sans-regular';
-    src: url('./fonts/Open_Sans/OpenSans-Regular.ttf');
-}
 
 html,
 body,
